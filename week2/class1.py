@@ -16,3 +16,12 @@ print(my_list[::-1])
 # Expected Output: [2, 5]
 my_list = [1, 2, 3, 4, 5, 6, 7, 8]
 print(my_list[1:6:3])
+
+
+
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        print("number")
+    except ValueError:
+        print("Invalid input, please enter a number.")
